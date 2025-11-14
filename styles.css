@@ -897,3 +897,538 @@ section {
         font-size: 2rem;
     }
 }
+
+.page-header {
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.2), rgba(0, 255, 255, 0.2));
+    padding: 8rem 0 4rem;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.page-header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-magenta));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+}
+
+.content-page {
+    padding: 4rem 0;
+    background: var(--primary-bg);
+}
+
+.content-box {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.content-box h2 {
+    font-size: 2rem;
+    color: var(--neon-cyan);
+    margin: 2rem 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content-box h3 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    margin: 1.5rem 0 1rem;
+}
+
+.content-box p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.content-box ul,
+.content-box ol {
+    margin: 1rem 0 1rem 2rem;
+    color: var(--text-secondary);
+    line-height: 2;
+}
+
+.content-box a {
+    color: var(--neon-cyan);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.content-box a:hover {
+    color: var(--neon-magenta);
+}
+
+.cta-box,
+.cta-section {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(0, 255, 255, 0.1));
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+}
+
+.cta-box h3,
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--neon-cyan);
+}
+
+.cta-box p,
+.cta-section p {
+    margin-bottom: 1.5rem;
+    color: var(--text-secondary);
+}
+
+.tutorials {
+    background: var(--secondary-bg);
+    padding: 5rem 0;
+}
+
+.tutorials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.tutorial-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.tutorial-card:hover {
+    border-color: var(--neon-magenta);
+    box-shadow: 0 5px 30px rgba(255, 0, 255, 0.3);
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background: var(--primary-bg);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.tutorial-card h3 {
+    font-size: 1.3rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tutorial-card h3 i {
+    color: var(--neon-magenta);
+}
+
+.tutorial-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.platforms {
+    background: var(--primary-bg);
+    padding: 5rem 0;
+}
+
+.platform-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+.platform-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2.5rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.platform-card.featured {
+    border-color: var(--neon-magenta);
+    box-shadow: 0 0 30px rgba(255, 0, 255, 0.3);
+}
+
+.featured-badge {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background: linear-gradient(135deg, var(--neon-magenta), var(--electric-purple));
+    color: var(--primary-bg);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.platform-card i {
+    font-size: 4rem;
+    color: var(--neon-cyan);
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.platform-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.platform-card p {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.platform-card ul {
+    list-style: none;
+    margin: 1.5rem 0;
+}
+
+.platform-card ul li {
+    color: var(--text-secondary);
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.platform-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 255, 255, 0.2);
+}
+
+.why-download {
+    background: var(--secondary-bg);
+    padding: 5rem 0;
+}
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.why-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.why-card:hover {
+    border-color: var(--neon-cyan);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 255, 255, 0.3);
+}
+
+.why-card i {
+    font-size: 3rem;
+    color: var(--neon-magenta);
+    margin-bottom: 1rem;
+}
+
+.why-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.why-card p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.gallery-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.8rem 2rem;
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    color: var(--text-primary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    border-color: var(--neon-cyan);
+    background: rgba(0, 255, 255, 0.2);
+    color: var(--neon-cyan);
+}
+
+.gallery-grid-full {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-page {
+    padding: 4rem 0;
+    background: var(--primary-bg);
+}
+
+.platform-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.platform-tab {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    color: var(--text-primary);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.platform-tab:hover,
+.platform-tab.active {
+    border-color: var(--neon-magenta);
+    background: rgba(255, 0, 255, 0.2);
+    color: var(--neon-magenta);
+}
+
+.platform-tab i {
+    font-size: 1.5rem;
+}
+
+.platform-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.platform-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.platform-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--neon-cyan);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.platform-description {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.download-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.android-instructions {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.android-instructions h4 {
+    font-size: 1.5rem;
+    color: var(--neon-cyan);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.android-instructions ol {
+    margin-left: 2rem;
+    color: var(--text-secondary);
+    line-height: 2;
+}
+
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-card {
+    background: linear-gradient(135deg, rgba(0, 255, 255, 0.05), rgba(255, 0, 255, 0.05));
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: 0 5px 20px rgba(0, 255, 255, 0.2);
+}
+
+.contact-card i {
+    font-size: 3rem;
+    color: var(--neon-magenta);
+    margin-bottom: 1rem;
+}
+
+.contact-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.contact-card p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.contact-link {
+    color: var(--neon-cyan);
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: var(--neon-magenta);
+}
+
+.download-page {
+    padding: 4rem 0;
+}
+
+.download-hero {
+    margin-bottom: 4rem;
+}
+
+.download-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.platform-section {
+    margin: 4rem 0;
+}
+
+.download-faq {
+    margin-top: 4rem;
+}
+
+.nav-menu a.active {
+    color: var(--neon-cyan);
+    position: relative;
+}
+
+.nav-menu a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, var(--neon-cyan), var(--neon-magenta));
+}
+
+.mobile-toggle {
+    display: none;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 250px;
+        height: calc(100vh - 70px);
+        background: var(--secondary-bg);
+        flex-direction: column;
+        padding: 2rem 0;
+        transition: right 0.3s ease;
+        border-left: 2px solid var(--neon-cyan);
+        z-index: 999;
+    }
+    
+    .nav-menu.active {
+        right: 0;
+    }
+    
+    .mobile-toggle {
+        display: block;
+    }
+    
+    .platform-cards,
+    .tutorials-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .gallery-grid-full {
+        grid-template-columns: 1fr;
+    }
+    
+    .content-box {
+        padding: 2rem 1.5rem;
+    }
+}
