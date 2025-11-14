@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTA San Andreas Download Free - PC, Android APK, Windows 10 | Modded Edition 2024</title>
-    <meta name="description" content="Download GTA San Andreas for free - PC, Android APK, Windows 10/11. Enhanced modded edition with HD graphics, 150+ cars, Rolls Royce taxi mod. Low-end PC optimized. Google Drive, MEGA, MediaFire links.">
-    <meta name="keywords" content="gta san andreas download, gta san andreas android download, gta san andreas apk download, gta sa download, download gta san andreas mod apk, gta san andreas free download, gta san andreas download windows 10, gta san andreas mod apk download, gta san andreas downloadable content"
+    <title>GTA San Andreas Download - Enhanced Modded Edition | HD Graphics & Low-End PC Support</title>
+    <meta name="description" content="Download GTA San Andreas modded edition with stunning HD graphics, new cars, Rolls Royce taxi mod, and optimized for low-end PCs. Free download with installation guide.">
+    <meta name="keywords" content="gta san andreas download, gta san andreas modded, gta sa download, gta san andreas pc, gta mods">
     <meta property="og:title" content="GTA San Andreas Download - Enhanced Modded Edition">
     <meta property="og:description" content="Experience GTA San Andreas like never before. Enhanced graphics, new cars, and optimized performance for all PCs.">
     <meta property="og:type" content="website">
@@ -23,11 +23,10 @@
                 <span>GTA SA MODDED</span>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="download.html">Download</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#download">Download</a></li>
                 <li><a href="#faq">FAQ</a></li>
-                <li><a href="#" class="mobile-toggle"><i class="fas fa-bars"></i></a></li>
             </ul>
         </div>
     </nav>
@@ -40,10 +39,10 @@
                 <p class="hero-subtitle">Enhanced Modded Edition - Remastered Graphics, New Cars & Ultimate Performance</p>
                 <p class="hero-description">Experience the legendary San Andreas like never before. Download our heavily-modded version featuring stunning HD graphics, exclusive vehicle packs including the iconic Rolls Royce taxi mod, and full optimization for low-end PCs.</p>
                 <div class="hero-buttons">
-                    <a href="download.html" class="btn btn-primary">
+                    <a href="#download" class="btn btn-primary">
                         <i class="fas fa-download"></i> Download Now
                     </a>
-                    <a href="gallery.html" class="btn btn-secondary">
+                    <a href="#gallery" class="btn btn-secondary">
                         <i class="fas fa-images"></i> View Screenshots
                     </a>
                 </div>
@@ -164,104 +163,6 @@
                     </div>
                 </div>
             </div>
-            <div class="cta-section">
-                <p>See more screenshots in our full gallery</p>
-                <a href="gallery.html" class="btn btn-secondary">
-                    <i class="fas fa-images"></i> View Full Gallery
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="tutorials">
-        <div class="container">
-            <h2 class="section-title">Video <span class="highlight">Tutorials</span></h2>
-            <p class="section-subtitle">Watch how to download and install GTA San Andreas modded edition</p>
-            <div class="tutorials-grid">
-                <div class="tutorial-card">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <h3><i class="fab fa-youtube"></i> How to Download GTA San Andreas for PC</h3>
-                    <p>Complete tutorial for downloading and installing on Windows 10/11. Includes Google Drive, MEGA, and MediaFire download links.</p>
-                </div>
-                <div class="tutorial-card">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <h3><i class="fab fa-youtube"></i> GTA San Andreas APK Download for Android</h3>
-                    <p>Step-by-step guide for installing GTA SA Mod APK on Android devices. Works on all Android versions 5.0+.</p>
-                </div>
-                <div class="tutorial-card">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <h3><i class="fab fa-youtube"></i> Install Mods & Graphics Enhancements</h3>
-                    <p>Learn how to customize your GTA San Andreas with additional mods, texture packs, and graphics improvements.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="platforms">
-        <div class="container">
-            <h2 class="section-title">Download for <span class="highlight">Any Platform</span></h2>
-            <p class="section-subtitle">GTA San Andreas download available for PC, Android, and all platforms</p>
-            <div class="platform-cards">
-                <div class="platform-card">
-                    <i class="fas fa-desktop"></i>
-                    <h3>Windows PC Download</h3>
-                    <p>Get GTA San Andreas for Windows 10, Windows 11, Windows 8, and Windows 7. Full modded version with HD graphics and new vehicles. Optimized for both high-end gaming PCs and low-end budget computers.</p>
-                    <ul>
-                        <li>✓ Windows 10/11 compatible</li>
-                        <li>✓ HD graphics mods included</li>
-                        <li>✓ Low-end PC optimized</li>
-                        <li>✓ Free download - No subscription</li>
-                    </ul>
-                    <a href="download.html" class="btn btn-primary">Download for PC</a>
-                </div>
-                <div class="platform-card featured">
-                    <div class="featured-badge">Most Popular</div>
-                    <i class="fab fa-android"></i>
-                    <h3>Android APK Download</h3>
-                    <p>Download GTA San Andreas Mod APK for Android phones and tablets. Includes unlimited money, all missions unlocked, HD graphics, and vehicle mods. Works on Android 5.0 Lollipop and above.</p>
-                    <ul>
-                        <li>✓ Android 5.0+ compatible</li>
-                        <li>✓ Unlimited money mod</li>
-                        <li>✓ All missions unlocked</li>
-                        <li>✓ No root required</li>
-                    </ul>
-                    <a href="download.html" class="btn btn-primary">Download APK</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="why-download">
-        <div class="container">
-            <h2 class="section-title">Why Download <span class="highlight">Our Version?</span></h2>
-            <div class="why-grid">
-                <div class="why-card">
-                    <i class="fas fa-star"></i>
-                    <h3>100% Free Download</h3>
-                    <p>GTA San Andreas free download with no hidden costs, subscriptions, or in-app purchases. Get the complete game with all mods installed.</p>
-                </div>
-                <div class="why-card">
-                    <i class="fas fa-shield-check"></i>
-                    <h3>Safe & Verified</h3>
-                    <p>All files scanned with multiple antivirus programs. 100% safe download with no malware, viruses, or adware. Trusted by 500K+ users.</p>
-                </div>
-                <div class="why-card">
-                    <i class="fas fa-rocket"></i>
-                    <h3>Fast Download Speeds</h3>
-                    <p>Multiple mirrors including Google Drive, MEGA, and MediaFire. Choose the fastest server near you for quick downloads.</p>
-                </div>
-                <div class="why-card">
-                    <i class="fas fa-headset"></i>
-                    <h3>Full Support</h3>
-                    <p>Installation guides, video tutorials, and troubleshooting help. Our community is here to assist you every step of the way.</p>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -294,17 +195,28 @@
             </div>
 
             <div class="download-buttons">
-                <a href="download.html" class="download-btn primary-mirror">
+                <a href="#" class="download-btn primary-mirror">
                     <i class="fas fa-download"></i>
                     <div>
-                        <strong>Go to Download Page</strong>
-                        <span>Access all download links - Google Drive, MEGA, MediaFire</span>
+                        <strong>Primary Download</strong>
+                        <span>Google Drive - Fast & Reliable</span>
+                    </div>
+                </a>
+                <a href="#" class="download-btn">
+                    <i class="fas fa-cloud-download-alt"></i>
+                    <div>
+                        <strong>Mirror 1</strong>
+                        <span>MediaFire - Alternative Link</span>
+                    </div>
+                </a>
+                <a href="#" class="download-btn">
+                    <i class="fas fa-server"></i>
+                    <div>
+                        <strong>Mirror 2</strong>
+                        <span>MEGA - High Speed</span>
                     </div>
                 </a>
             </div>
-            <p style="text-align: center; margin-top: 2rem; color: var(--text-secondary);">
-                Choose between PC (Windows 10/11/7/8) or Android APK download. Multiple mirrors available for fastest speeds.
-            </p>
 
             <div class="installation-guide">
                 <h3><i class="fas fa-wrench"></i> Installation Guide</h3>
@@ -451,19 +363,19 @@
                 <div class="footer-section">
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="download.html">Download</a></li>
-                        <li><a href="about.html">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Legal</h4>
                     <ul>
-                        <li><a href="terms.html">Terms of Service</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                        <li><a href="disclaimer.html">Disclaimer</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">DMCA</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
