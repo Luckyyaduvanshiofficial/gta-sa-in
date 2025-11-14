@@ -211,4 +211,15 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+
+    const navDropdowns = document.querySelectorAll('.nav-dropdown > a');
+    if (window.innerWidth <= 768 && navDropdowns.length > 0) {
+        navDropdowns.forEach(dropdownLink => {
+            dropdownLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                const parentDropdown = this.parentElement;
+                parentDropdown.classList.toggle('active');
+            });
+        });
+    }
 });
