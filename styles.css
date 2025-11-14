@@ -1272,6 +1272,110 @@ section {
     color: var(--text-secondary);
     line-height: 1.8;
     margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.installation-guide {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 3rem;
+    margin: 4rem 0;
+}
+
+.installation-guide h2 {
+    font-size: 2rem;
+    color: var(--neon-cyan);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.requirements {
+    background: var(--secondary-bg);
+    padding: 4rem 0;
+    margin: 4rem 0;
+}
+
+.requirements h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.requirements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.req-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.req-card:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: 0 5px 25px rgba(0, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.req-card.recommended {
+    border-color: var(--neon-magenta);
+}
+
+.req-card.recommended:hover {
+    border-color: var(--neon-magenta);
+    box-shadow: 0 5px 25px rgba(255, 0, 255, 0.3);
+}
+
+.req-card h3 {
+    font-size: 1.5rem;
+    color: var(--neon-cyan);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.req-card.recommended h3 {
+    color: var(--neon-magenta);
+}
+
+.req-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.req-card ul li {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.req-card ul li:last-child {
+    border-bottom: none;
+}
+
+.req-card ul li strong {
+    color: var(--neon-cyan);
+    font-weight: 600;
+}
+
+.recommended-badge {
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    background: linear-gradient(135deg, var(--neon-magenta), var(--electric-purple));
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: 0 4px 15px rgba(255, 0, 255, 0.4);
 }
 
 .download-links {
@@ -1279,6 +1383,78 @@ section {
     flex-direction: column;
     gap: 1.5rem;
     margin-bottom: 3rem;
+}
+
+.download-btn {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    border-color: var(--neon-cyan);
+    background: rgba(0, 255, 255, 0.1);
+    transform: translateX(10px);
+    box-shadow: 0 5px 25px rgba(0, 255, 255, 0.3);
+}
+
+.download-btn.primary-mirror {
+    border-color: var(--neon-magenta);
+    background: rgba(255, 0, 255, 0.1);
+}
+
+.download-btn.primary-mirror:hover {
+    border-color: var(--neon-magenta);
+    background: rgba(255, 0, 255, 0.2);
+    box-shadow: 0 5px 25px rgba(255, 0, 255, 0.3);
+}
+
+.download-btn > i:first-child {
+    font-size: 2.5rem;
+    color: var(--neon-cyan);
+    min-width: 50px;
+}
+
+.download-btn.primary-mirror > i:first-child {
+    color: var(--neon-magenta);
+}
+
+.download-btn > div {
+    flex: 1;
+    text-align: left;
+}
+
+.download-btn strong {
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+
+.download-btn span {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+}
+
+.download-btn > i:last-child {
+    font-size: 1.2rem;
+    color: var(--neon-cyan);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover > i:last-child {
+    opacity: 1;
+    transform: translateX(5px);
 }
 
 .android-instructions {
@@ -1355,6 +1531,8 @@ section {
 
 .download-page {
     padding: 4rem 0;
+    background: var(--primary-bg);
+    min-height: 100vh;
 }
 
 .download-hero {
@@ -1368,12 +1546,159 @@ section {
     margin-bottom: 3rem;
 }
 
+.info-card {
+    background: var(--card-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.info-card:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: 0 5px 20px rgba(0, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.info-card i {
+    font-size: 2.5rem;
+    color: var(--neon-magenta);
+    margin-bottom: 1rem;
+}
+
+.info-card h4 {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.info-card p {
+    font-size: 1.5rem;
+    color: var(--neon-cyan);
+    font-weight: 700;
+}
+
 .platform-section {
     margin: 4rem 0;
+    background: var(--secondary-bg);
+    padding: 4rem 0;
+    border-radius: 10px;
 }
 
 .download-faq {
     margin-top: 4rem;
+    padding: 4rem 0;
+    background: var(--primary-bg);
+}
+
+.download-faq h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.download-faq .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Responsive adjustments for download page */
+@media (max-width: 1024px) {
+    .download-info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .requirements-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .download-page {
+        padding: 2rem 0;
+    }
+    
+    .download-info-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .info-card {
+        padding: 1.5rem;
+    }
+    
+    .download-btn {
+        padding: 1rem 1.5rem;
+        gap: 1rem;
+    }
+    
+    .download-btn > i:first-child {
+        font-size: 2rem;
+        min-width: 40px;
+    }
+    
+    .download-btn strong {
+        font-size: 1.1rem;
+    }
+    
+    .download-btn span {
+        font-size: 0.85rem;
+    }
+    
+    .platform-tabs {
+        gap: 0.5rem;
+    }
+    
+    .platform-tab {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .platform-tab i {
+        font-size: 1.2rem;
+    }
+    
+    .installation-guide,
+    .android-instructions {
+        padding: 1.5rem;
+    }
+    
+    .article-content {
+        padding: 0 1rem;
+    }
+    
+    .download-faq .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header {
+        padding: 6rem 0 3rem;
+    }
+    
+    .platform-content h3 {
+        font-size: 1.4rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .download-btn {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    .download-btn > div {
+        text-align: center;
+    }
+    
+    .download-btn:hover {
+        transform: translateX(0);
+        transform: translateY(-5px);
+    }
 }
 
 .nav-menu a.active {
@@ -1530,3 +1855,76 @@ section {
         font-size: 0.9rem;
     }
 }
+
+/* SEO Article Section Styles */
+.seo-article {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--secondary-bg) 0%, var(--primary-bg) 100%);
+}
+
+.article-content {
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+.article-content h3 {
+    color: var(--text-primary);
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.article-content h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--neon-cyan), var(--electric-purple));
+}
+
+.article-content h4 {
+    color: var(--neon-cyan);
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+    font-weight: 600;
+}
+
+.article-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.article-content ul {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.article-content ul li {
+    margin-bottom: 0.8rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.article-content ol {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.article-content ol li {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.article-content strong {
+    color: var(--neon-cyan);
+    font-weight: 600;
+}
+
