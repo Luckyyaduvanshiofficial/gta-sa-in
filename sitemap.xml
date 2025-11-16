@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://gta-san-andreas.in/</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://gta-san-andreas.in/gallery</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gta-san-andreas.in/download</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gta-san-andreas.in/about</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gta-san-andreas.in/contact</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gta-san-andreas.in/terms</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gta-san-andreas.in/privacy</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gta-san-andreas.in/disclaimer</loc>
+  <lastmod>2025-11-16T09:51:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
